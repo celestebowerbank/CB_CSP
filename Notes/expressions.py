@@ -22,24 +22,30 @@ friend3 = 8
 friend4 = 9
 people = 4
 total_ages = friend1+friend2+friend3+friend4
-print("Average age of a group of 4 is", total_ages//people)
+print("Average age of a group of 4 is:", total_ages//people)
 
 # List ALL of the different mathematical operators (Give me the symbol and tell me what it does)
 
-num_one = 12
-num_two = 7
-print("Addition(+):", num_one+num_two)
-print("Subtraction(-):", num_one-num_two)
-print("Multiplication(*):", num_one*num_two)
-print("Division(/):", num_one/num_two)
-print("Exponents(**):", num_one**num_two)
-print("Integer Division(//):", num_one//num_two)
-print("Modulo(%):", num_one%num_two)
+num_one = int(input("Tell me a number:\n"))
+num_two = float(input("Tell me another number:\n"))
+num_one += num_two
+print("Addition(+):",num_one)
+print("Subtraction(-):",num_one)
+num_one -= num_two
+print("Multiplication(*):", num_one)
+num_one *= num_two
+print("Division(/):", round(num_one, 2)) # round(number to round, number of decimal places)
+num_one /= num_two
+print("Exponents(**):", num_one)
+num_one **= num_two
+print("Integer Division(//):", num_one)
+num_one //= num_two
+print("Modulo(%):", num_one)
+num_one %= num_two
     # Integer Division will only give you a whole number
-    # Floats in programing is a number with decimals 
+    # Floats in programing, is a number with decimals 
     # Modulo gives you the remainder of your division
 # List ALL of the different assignment operators (Give me the symbols and what it does)
-    #
-
+    # An assignment operater is an =
 # Why are expressions so important in programming?
-    #
+    # Because it's math logic and so you need logic to program
