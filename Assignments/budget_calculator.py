@@ -9,4 +9,3 @@ rent = 296
 utilities = 174
 grocries = 232
 transportation = 60
-Input("")
