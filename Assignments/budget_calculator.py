@@ -9,3 +9,6 @@ rent = 296
 utilities = 174
 grocries = 232
 transportation = 60
+savings = (1000 - (296+174+232+60))
+print("Total Expenses",utilities + rent + grocries + transportation)
+print("Money left over",savings)
