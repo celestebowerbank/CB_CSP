@@ -16,16 +16,16 @@ print (sentence.strip())
 
 print("Welcome to my program", full_name + "!")
 
-
+# Sanitization and stupid proofing
 # Why do we have strings?
-
+# because it strings the code together
 # How do stupid proofing and sanitization relate to each other?
 
 # What is debugging?
 
 # How do you debug the different types of errors?
 
-# find()
+# find()-
 
 # concatenate (add)
 
