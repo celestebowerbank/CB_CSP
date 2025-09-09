@@ -24,13 +24,18 @@ print("Welcome to my program", full_name + "!")
 # What is debugging?
 # Resolving issues/ fixing code
 # How do you debug the different types of errors?
+    # Syntax Error - 
+# error = ("This is a bug")
+    # Logic Error
+numOne = "1"
+numTwo = "2"
 
-# find()-
+print(numOne+numTwo)
 
-# concatenate (add)
-
-# upper()
-
-# lower()
-
-# strip()
+    #Run-Time Error
+# num = 3
+# print("my favorite number is"+num)
+#  find()-
+print(sentence.find("jumps"))
+print(sentence[20:25])
+print(sentence[sentence.find("lazy"): len("lazy")+ sentence.find("lazy")])
