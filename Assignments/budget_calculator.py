@@ -17,4 +17,10 @@ transportation_percentsge = (trasportation/income) * 100
 savings = (income *.10)
 leftover = income - ( rent + utilities + grocries + transportation + savings )
 
-print()
+print("your rent is", rent)
+print("The percentage of rent from your income is", rent_percent)
+print("Your utilities bill is", utilities)
+print("The percentage of your utility from your income is", utility_percent)
+print("Your transportation is", transportation)
+print("The percentage of your transportation from your income is", transportation_percent)
+print("Your percentage of money leftover is:", leftover)
