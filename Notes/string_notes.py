@@ -20,9 +20,9 @@ print("Welcome to my program", full_name + "!")
 # Why do we have strings?
 # because it strings the code together
 # How do stupid proofing and sanitization relate to each other?
-
+# Both error proof the code
 # What is debugging?
-
+# Resolving issues/ fixing code
 # How do you debug the different types of errors?
 
 # find()-
