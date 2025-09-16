@@ -6,10 +6,11 @@ def welcome():
 
 
 print("This is not in my function")
-#welcome()
-#welcome()
-#welcome()
-#welcome()
+welcome()
+welcome()
+welcome()
+welcome()
+welcome()
 
 def add(number, number_two):
     number+= number_two
