@@ -1,12 +1,15 @@
 # CB 7th Update hello
 
-def welcome():
-    name = input("What is your name?:")
+def hello(name):
     print(f"hello, {name}!")
 
-
-welcome()
-welcome()
-welcome()
-welcome()
-welcome()
+name= input("What is your name?")
+hello(name)
+name= input("What is your name?")
+hello(name)
+name= input("What is your name?")
+hello(name)
+name= input("What is your name?")
+hello(name)
+name= input("What is your name?")
+hello(name)
