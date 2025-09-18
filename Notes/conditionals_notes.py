@@ -1,20 +1,34 @@
 # CB 7th Conditionals Notes
 
-homework_done = input("Is your homework done?").strip().capitalize()
+# homework_done = input("Is your homework done?").strip().capitalize()
 
-if homework_done == "Yes":
-    print("Yes you can go!")
-else:
-    print("Then go do your homework!")
+#if homework_done == "Yes":
+   # print("Yes you can go!")
+#else:
+    #print("Then go do your homework!")
 
-grade = 81
+grade = 103
 
-if grade > 84:
-    print(f"You have a {grade}% that is an A!")
+if grade >= 90 and not grade >100:
+    if grade > 100:
+            print("You cheated that isn't possible!")
+    else:
+      print(f"You have a {grade}% that is an A!")
 elif grade> 79:
     print(f"You have a {grade}% that is a B")
 else:
-    print(f"You have a {grade}% that is not an a:(")
+    print(f"You have a {grade}% that is below an:(")
+
+    # logical operators and, or not
+
+name = input("What is your name")
+
+if name == "Ms LaRose":
+        print("You are the teacher!")
+elif name == "Tia" or name == "Ashley":
+        print ("You are the TA")
+else:
+        print(f"Hello{name}, you are a student!")
 
 
 
@@ -47,4 +61,4 @@ else:
 # What are logical operators for?
     # To combine multiple Boolean (true/false) expressions
 # What does a nested conditional statement do?
-    # Allowing for more complex, hierarchical decision-making by checking a second condition only if the first condition is true
+    # Only happens within another condition
