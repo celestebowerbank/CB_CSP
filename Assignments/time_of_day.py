@@ -3,7 +3,7 @@
 print("What is the hour in military time:")
 hour = int(input())
 
-if hour >= 18 or hour < 5:  
+if hour >= 18 or hour < 17:  
     print("Good Evening!")
 elif hour >= 12:  
     print("Good Afternoon!")
