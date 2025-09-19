@@ -4,13 +4,16 @@
 # Get a learners permit 15
 # Go to school 4
 
-age = input("How old are you?\n")
+age_input = input("How old are you: ")
+        age = int(age_input)
 
-if age>=4 and not age<15:
-        print("You can go to school!")
-elif age>=16:
-        print ("You can drive")
-if age>=18:
-    print(f"You can vote!")
-elif age==15:
-        print ("You can get a learners permit!")
+        if age >= 18:
+            print("You are old enough to vote!")
+        elif age >= 16:
+            print("You are old enough to drive!")
+        elif age >= 15:
+            print("You are old enough to get a learners permit!")
+        elif age >= 5:
+            print("You are old enough to go to school!")
+        else:
+            print("You are not yet old enough for school.")
