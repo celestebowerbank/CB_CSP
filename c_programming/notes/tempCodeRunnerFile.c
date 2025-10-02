@@ -1,0 +1,1 @@
+What is the purpose of the #include <stdio.h> line at the beginning of a C program?
