@@ -37,9 +37,10 @@ int main(void){
 //What is the difference between %d and %f format specifiers in printf()?
     //The %d format specifier in printf() is used for printing signed decimal integers, while %f is used for printing floating-point numbers.
 //How do you print a newline character in C?
-
+    //In C, a newline character is represented by the escape sequence \n.
 //Write a C program that converts temperature from Celsius to Fahrenheit. Ask the user for input in Celsius and display the result in Fahrenheit.
 
 //What is the purpose of the & symbol when using scanf() to get user input?
-
+    //, is the address-of operator. Its purpose is to provide scanf() with the memory address 
 //How do you declare a constant in C? Provide an example.
+    //The const keyword is used to declare a variable whose value cannot be changed after its initialization. Any attempt to modify a const variable after its declaration will result in a compile-time error.
