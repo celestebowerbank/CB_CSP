@@ -8,7 +8,9 @@ int main(void){
     char letter_grade;'A'; //1 byte
     char name[] = " Celeste";
     //Use Input
-    printf("What is your grade percentage as a whole number:\n");
+    printf("What is your name:\n"); fgets(name, sizeof(name), stdin); 
+    printf("What is your grade percentage as a whole number:\n "); 
+    scanf(name, sizeof(name), stdin);
     scanf("%d", &grade);
 
 printf("What is your letter grade: ");
