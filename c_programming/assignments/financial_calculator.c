@@ -4,7 +4,6 @@
 
 int main() {
     float income, rent, utilities, groceries, transport, savings, remaining;
-    printf("=== Personal Finance Calculator ===\n");
     printf("Enter monthly income: $"); scanf("%f", &income);
     printf("Rent/Mortgage: $"); scanf("%f", &rent);
     printf("Utilities: $"); scanf("%f", &utilities);
