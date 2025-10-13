@@ -20,7 +20,7 @@ int main() {
         printf("You are old enough to go to school!\n");
     }
     else {
-        printf("You are not old enough for any of these yet!\n");
+        printf("You are not old enough for anything!\n");
     }
 
     return 0;
