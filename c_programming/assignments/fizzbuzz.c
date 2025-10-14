@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 int main() {
-    // Loop that counts from 1 to 50
     for (int i = 1; i <= 50; i++) {
         if (i % 3 == 0 && i % 5 == 0) {
             printf("FizzBuzz\n");
